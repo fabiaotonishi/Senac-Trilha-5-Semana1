@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Estruturas de repetição 2</title>
+    <meta charset="utf-8" />
+    <script>
+        //a)
+        let contador = 1;
+        document.write("Exercício 2 <br />")
+        document.write("<br /> a) <br />")
+        document.write("---------------------------------------------<br />")
+        for (var i = 1; i <= 40; i++) {
+            if (i % 4 == 0) {
+                document.write("PIM");
+                if (i == 40) {
+                    document.write("!");
+                }
+                document.write("<br />");
+            }
+   
+            else {
+                document.write(i + "<br />")
+            }
+        }
+
+        while (contador <= 40) {
+            if (contador % 4 == 0) {
+                document.write("PIM");
+                if (contador == 40) {
+                    document.write("!");
+                }
+                document.write("<br />");
+
+            }
+            else {
+                document.write(contador + "<br />");
+            }
+            contador++;
+        }
+
+       
+    </script>
+</head>
+<body>
+
+</body>
+</html>

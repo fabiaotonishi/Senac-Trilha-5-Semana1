@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Variáveis 1</title>
+    <meta charset="utf-8" />
+    <script>
+        let nome = "José da Silva";
+        let telefone = "(17) 99999-9999";
+        let convenio = false;
+        let profissao = "Docente";
+        let salario = 3000.00;
+
+        const profissional = {
+            nome: nome,
+            telefone: telefone,
+            convenio: convenio,
+            profissao: profissao,
+            salario: salario
+        };
+
+        document.write("<h1>Informações do profissional</h1>");
+        document.write("<p>");
+        document.write("Nome: " + profissional.nome + "</br >");
+        document.write("Telefone: " + profissional.telefone + "</br >");
+        document.write("Possuí convênio: " + profissional.convenio + "</br >");
+        document.write("Profissão: " + profissional.profissao + "</br >");
+        document.write("Salário: " + profissional.salario + "</br >");
+        document.write("</p>");
+    </script>
+</head>
+<body>
+</body>
+</html>

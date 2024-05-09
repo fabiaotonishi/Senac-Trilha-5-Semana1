@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Listas 3</title>
+    <meta charset="utf-8" />
+    <script>
+        function recebeLetra(palavra) { 
+            let letras = []            
+            //for (let letra in palavra) {
+            //    letras.push(palavra[letra]);
+            //}
+            for (var i = 0; i < 10; i++) {
+                letras.push(palavra[i]);
+            }
+            return letras;
+        }
+
+        var resultado = recebeLetra("abcdefaghijlmnop");        
+        resultado.forEach(function (letra, i) {
+            switch (i) {
+                case 0:
+                    document.write("Primeira letra:" + letra + "<br />");
+                    break;
+                case 3:
+                    document.write("Quarta letra:" + letra + "<br />");
+                    break;
+                case 4:
+                    document.write("Quinta letra:" + letra + "<br />");
+                    break;
+                case 9:
+                    document.write("Última letra:" + letra + "<br />");
+                    break;
+            }
+        });
+        document.write("Lista tamanho:" + resultado.length.toString() + "<br />");
+    </script>
+</head>
+<body>
+</body>
+</html>

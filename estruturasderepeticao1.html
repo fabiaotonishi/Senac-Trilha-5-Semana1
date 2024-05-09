@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Estruturas de repetição 1</title>
+    <meta charset="utf-8" />
+    <script>
+        //a)
+        let contador = 0;
+        document.write("Exercício 1 <br />");
+        document.write("<br /> a) <br />");
+        document.write("---------------------------------------------<br />");
+        for (var i = 0; i < 50; i++) {
+            if (i % 2 == 0) {
+                document.write(i + " é par. <br />");
+            }
+            else {
+                document.write(i + " é impar. <br />");
+            }
+        }
+
+        while (contador < 50) {
+            if (contador % 2 == 0) {
+                document.write(contador + " é par. <br />");
+            }
+            else {
+                document.write(contador + " é impar. <br />");
+            }
+            contador++;
+        }
+
+        document.write("<br /> b) <br />");
+        document.write("---------------------------------------------<br />");
+        //b)
+        for (var i = 0; i <= 100; i++) {
+            if (i % 3 == 0) {
+                document.write(i + "<br />");
+            }
+        }
+        contador = 0;
+        while (contador <= 100) {
+            if (contador % 3 == 0) {
+                document.write(contador + "<br />");
+            }
+            contador++;
+        }
+
+        document.write("<br /> c) <br />");
+        document.write("---------------------------------------------<br />");
+        for (var i = 100; i >= 0; i--) {
+            if (i % 2 == 0) {
+                document.write(i + "<br />");
+            }
+        }
+
+        contador = 100;
+        while (contador >= 0) {
+            if (contador % 2 == 0) {
+                document.write(contador + "<br />");
+            }
+            contador--;
+        }
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

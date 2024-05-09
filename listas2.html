@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Listas 3</title>
+    <meta charset="utf-8" />
+    <script>
+        function recebeLetra(palavra) { 
+            let letras = []            
+            //for (let letra in palavra) {
+            //    letras.push(palavra[letra]);
+            //}
+            for (var i = 0; i < 10; i++) {
+                letras.push(palavra[i]);
+            }
+            return letras;
+        }
+
+        var resultado = recebeLetra("testedeletras");
+        for (var i in resultado) {
+            document.write(resultado[i] + "<br />");
+        }
+    </script>
+</head>
+<body>
+</body>
+</html>
